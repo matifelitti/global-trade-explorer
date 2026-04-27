@@ -1,0 +1,27 @@
+    [assets-testid="stMetricValue"] {
+        font-size: 1.8rem !important;
+        font-weight: 700;
+        color: #007bff;
+    }
+
+    .stDataFrame, .js-plotly-plot {
+        border: 1px solid #e6e9ef;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .main .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    h2, h3 {
+        color: #2c3e50;
+        font-weight: 600;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        h2, h3 { color: #ecf0f1; }
+        [assets-testid="stMetricValue"] { color: #3498db; }
+        .stDataFrame, .js-plotly-plot { border: 1px solid #444; }
+    }
