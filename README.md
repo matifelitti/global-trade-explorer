@@ -2,6 +2,16 @@
 
 An interactive web application built with **Python** that provides real-time visualizations of global economic indicators. This project fetches live data directly from the **World Bank Open Data API** to analyze trends across 40+ key metrics for any country in the world.
 
+## 📸 Project Preview
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Global%20Trade%20Explorer%20Principal%20View.jpg" alt="General View" width="100%">
+    </td>
+  </tr>
+</table>
+
 ## 🚀 Live Features
 - **Real-time Data Fetching:** Utilizes `wbgapi` to ensure the most up-to-date economic information.
 - **Dynamic Exploration:** Users can filter by Country and Category (Trade, Macroeconomics, Social, and Development).
